@@ -1,0 +1,68 @@
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Хоёр хэсэгт хуваана — sidebar + main */
+    .container {
+      display: flex;
+      min-height: 80vh;
+    }
+
+    /* SIDEBAR */
+    nav {
+      width: 200px;
+      background-color: #222;
+      color: white;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 15px 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      padding: 8px;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+
+    /* MAIN CONTENT */
+    main {
+      flex: 1;
+      background-color: white;
+      padding: 20px;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+    }
